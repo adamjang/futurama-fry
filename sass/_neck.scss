@@ -1,0 +1,160 @@
+/*==================================
+	NECK
+==================================*/
+
+#fry{
+	
+	.head{
+
+		.skin{
+			top: 100px;
+			left: 203px;
+			width: 157px;
+			height: 180px;
+		}
+
+		.skin2{
+			top: 210px;
+			left: 238px;
+			width: 95px;
+			height: 180px;
+		}
+
+		.skin3{
+			top: 210px;
+			left: 312px;
+			width: 28px;
+			height: 160px;
+		}
+
+		.skin4{
+			top: 327px;
+			left: 338px;
+			width: 28px;
+			height: 20px;
+		}
+
+		.skin5{
+			top: 281px;
+			left: 338px;
+			width: 52px;
+			height: 50px;
+		}
+
+		.skin6{
+			top: 182px;
+			left: 327px;
+			width: 40px;
+			height: 120px;
+		}
+
+		.skin7{
+			border-top-right-radius: 24px;
+			border-bottom-right-radius: 24px;
+			top: 201px;
+			left: 355px;
+			width: 40px;
+			height: 54px;
+		}
+
+
+		.neck-bottom{
+			border-bottom-right-radius: 33px;
+			border-bottom-left-radius: 36px;
+			border-left: 2px solid #000;
+			border-right: 2px solid #000;
+			border-bottom: 2px solid #000;
+			left: 231px;
+			bottom: 38px;
+			width: 96px;
+			height: 25px;
+			-webkit-transform: rotate(9deg);
+		}
+
+		.neck-bottom-cover{
+			left: 238px;
+			bottom: 64px;
+			width: 95px;
+			height: 25px;
+			-webkit-transform: rotate(9deg);
+		}
+
+		.neck-bottom-left1{
+			border-left: 2px solid #000;
+			left: 235px;
+			bottom: 70px;
+			height: 50px;
+			width: 74px;
+			-webkit-transform: rotate(3deg);
+
+		}
+
+		.neck-bottom-left2{
+			border-left: 2px solid #000;
+			left: 234.5px;
+			bottom: 127px;
+			height: 20px;
+			width: 74px;
+			-webkit-transform: rotate(-9deg);
+
+		}
+
+		.neck-bottom-left3{
+			border-left: 2px solid #000;
+			left: 228px;
+			bottom: 151px;
+			height: 20px;
+			width: 74px;
+			-webkit-transform: rotate(-20deg);
+		}
+
+		.neck-bottom-right1{
+			border-right: 2px solid #000;
+			right: 266px;
+			bottom: 58px;
+			height: 32px;
+			width: 45px;
+			-webkit-transform: rotate(17deg);
+		}
+
+		.neck-bottom-right2{
+			border-right: 2px solid #000;
+			right: 240px;
+			bottom: 104px;
+			height: 30px;
+			width: 74px;
+			-webkit-transform: rotate(48deg);
+		}
+
+		.neck-bottom-right3{
+			border-top-right-radius: 28px;
+			border-right: 2px solid #000;
+			border-top: 2px solid #000;
+			right: 228px;
+			bottom: 110px;
+			height: 4px;
+			width: 9px;
+			-webkit-transform: rotate(27deg);
+		}
+
+		.neck-bottom-right4{
+			border-top: 2px solid #000;
+			right: 237px;
+			bottom: 101px;
+			height: 11px;
+			width: 9px;
+			-webkit-transform: rotate(152deg);
+		}
+
+		.neck-bottom-right5{
+			border-top: 2px solid #000;
+			right: 233px;
+			bottom: 104px;
+			height: 11px;
+			width: 7px;
+			-webkit-transform: rotate(140deg);
+		}
+		
+	}
+
+}

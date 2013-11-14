@@ -1,0 +1,36 @@
+/*==================================
+	SHIRT
+==================================*/
+
+#fry{
+
+	.shirt{
+			
+		div{
+			background-color: #FFF;
+		}
+		
+		.shirt-left{
+			border-left: 2px solid #000;
+			left: 250px;
+			bottom: -41px;
+			width: 65px;
+			height: 139px;
+			border-top-right-radius: 92px;
+			border-top-left-radius: 22px 68px;
+			border-bottom-left-radius: 110px;
+			-webkit-transform: rotate(-22deg);
+		}
+		
+		.shirt-right{
+			border-right: 2px solid #000;
+			right: 264px;
+			bottom: -5px;
+			width: 65px;
+			height: 70px;
+			border-top-right-radius: 22px 68px;
+			-webkit-transform: rotate(-2deg);
+		}
+	}
+
+}	

@@ -1,0 +1,118 @@
+/*==================================
+	BACKGROUND
+==================================*/
+
+#fry{
+	
+	background-color: $bg;
+	
+	.bg{
+		
+		.line1{
+			background-color: #3b4c69;
+			border-bottom: 2px solid #000;
+			left: -24px;
+			height: 40px;
+			top: 114px;
+			width: 700px;
+			-webkit-transform: rotate(-16.5deg);
+		}
+
+		.line2{
+			background-color: #2c3a4f;
+			border-top: 2px solid #000;
+			left: -24px;
+			height: 5px;
+			top: 103px;
+			width: 700px;
+			-webkit-transform: rotate(-18.5deg);
+		}
+
+		.cover1{
+			background-color: #3b4c69;
+			left: -24px;
+			height: 25px;
+			top: 103px;
+			width: 700px;
+			-webkit-transform: rotate(-18.5deg);
+		}
+
+		.handle1{
+			@include border-style();
+			background-color: #133233;
+			left: 138px;
+			height: 70px;
+			top: 60px;
+			width: 22px;
+			-webkit-transform: rotate(-29deg);
+			border-top-left-radius: 30px;
+			border-bottom-left-radius: 30px;
+			border-top-right-radius: 10px;
+			border-bottom-right-radius: 10px;
+		}
+
+		.handle2{
+			@include border-style();
+			background-color: #133233;
+			left: 193px;
+			height: 70px;
+			top: 36px;
+			width: 28px;
+			-webkit-transform: rotate(-32deg);
+			border-top-left-radius: 10px;
+			border-bottom-left-radius: 10px;
+			border-top-right-radius: 30px;
+			border-bottom-right-radius: 30px;
+		}
+
+		.vline1{
+			border-right: 2px solid #000;
+			left: 172px;
+			top: 3px;
+			width: 0;
+			height: 149px;
+			-webkit-transform: rotate(-30deg);
+		}
+
+		.vline2{
+			border-right: 2px solid #000;
+			right: 101px;
+			top: -3px;
+			width: 0;
+			height: 47px;
+			-webkit-transform: rotate(-28deg);
+		}
+
+		.cover2{
+			background-color: #345e6d;
+			left: -50px;
+			height: 125px;
+			top: -17px;
+			width: 700px;
+			-webkit-transform: rotate(-18.5deg);
+		}
+
+		.line3{
+			background-color: #345e6d;
+			border-top: 2px solid #000;
+			left: -50px;
+			height: 100px;
+			top: -64px;
+			width: 700px;
+			-webkit-transform: rotate(-26.5deg);
+		}
+
+		.line4{
+			background-color: #2e4049;
+			border-bottom: 2px solid #000;
+			left: -20px;
+			height: 35px;
+			top: -16px;
+			width: 100px;
+			-webkit-transform: rotate(-28deg);
+		}
+
+
+	}
+
+}

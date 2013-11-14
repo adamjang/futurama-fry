@@ -1,0 +1,45 @@
+/*==================================
+	EAR
+==================================*/
+
+#fry{
+	
+	.head{
+
+		.ear{
+			@include border-style();
+			border-radius: 48px;
+			left: 198px;
+			top: 245px;
+			height: 48px;
+			width: 48px;		
+		}
+
+		.ear-top{
+			border-right: 2px solid #000;
+			border-left: 2px solid #000;
+			border-top-right-radius: 15px;
+			border-top-left-radius: 11px;
+			border-top: 2px solid #000;
+			left: 208px;
+			top: 258px;
+			height: 11px;
+			width: 22px;
+		}
+
+		.ear-bottom{
+			border-bottom: 2px solid #000;
+			border-left: 2px solid #000;
+			border-bottom-left-radius: 15px;
+			border-top-left-radius: 11px;
+			border-top: 2px solid #000;
+			left: 214px;
+			top: 259px;
+			height: 22px;
+			width: 11px;
+			-webkit-transform: rotate(-3deg); 
+		}
+
+	}
+
+}

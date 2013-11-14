@@ -1,0 +1,42 @@
+/*==================================
+	JACKET
+==================================*/
+
+#fry{
+
+	.jacket{
+		z-index: 1;
+		div{
+			background-color: #ab2a2a;
+		}
+
+		.jacket-back{
+			bottom: -131px;
+			left: 117px;
+			width: 277px;
+			height: 200px;
+			@include border-style();
+			border-radius: 164px / 107px;
+		}
+
+		.jacket-collar-left{
+			@include border-style();
+			bottom: -91px;
+			left: 200px;
+			width: 115px;
+			height: 200px;
+			border-radius: 95px / 107px;	
+		}
+
+		.jacket-collar-right{
+			@include border-style();
+			bottom: -114px;
+			left: 260px;
+			width: 115px;
+			height: 200px;
+			border-radius: 65px / 107px;
+			-webkit-transform: rotate(-8deg);
+		}
+	}
+
+}

@@ -1,0 +1,72 @@
+/*==================================
+	NOSE
+==================================*/
+
+#fry{
+	
+	.head{
+
+		.nose{
+			border-top: 2px solid #000;
+			border-right: 2px solid #000;
+			border-top-right-radius: 74px;
+			border-bottom-right-radius: 74px;
+			left: 365px;
+			top: 255px;
+			height: 26px;
+			width: 32px;
+			-webkit-transform: rotate(6deg);
+		}
+
+		.nose-bottom{
+			border-bottom-right-radius: 15px;
+			border-right: 2px solid #000;
+			border-bottom: 2px solid #000;
+			right: 204px;
+			bottom: 167px;
+			width: 20px;
+			height: 14px;
+			-webkit-transform: rotate(1deg);
+		}
+
+		.nose-bottom2{
+			border-top: 2px solid #000;
+			right: 224px;
+			bottom: 152px;
+			width: 15px;
+			height: 14px;
+			-webkit-transform: rotate(-10deg);
+		}
+
+		.nose-top{
+			border-bottom: 2px solid #000;
+			right: 234px;
+			bottom: 197px;
+			width: 10px;
+			height: 14px;
+			-webkit-transform: rotate(10deg);
+		}
+
+		.nose-top2{
+			border-left: 2px solid #000;
+			right: 239px;
+			bottom: 200.5px;
+			width: 10px;
+			height: 14px;
+			-webkit-transform: rotate(-38deg);
+		}
+
+		.nose-top3{
+			border-top: 2px solid #000;
+			right: 251px;
+			bottom: 210.5px;
+			width: 12px;
+			height: 2px;
+			-webkit-transform: rotate(-153deg);
+		}
+
+
+	}
+
+}
+	

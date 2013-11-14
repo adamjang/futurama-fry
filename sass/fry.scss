@@ -1,0 +1,103 @@
+@mixin border-style(){
+	border-width: 2px;
+	border-color: #000;
+	border-style: solid;	
+}
+
+$bg: #476182;
+$hair: #ea711d;
+//$hair: transparent;
+//$hair: #f2f;
+//$skin: transparent;
+$skin: #ffb591;
+
+body,
+html{
+	margin: 0;
+	padding: 0;
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+@import "background";
+@import "ear";
+@import "eyes";
+@import "hair";
+@import "jacket";
+@import "mouth";
+@import "neck";
+@import "nose";
+@import "shirt";
+
+#fry{
+	//background-image: url(/fry.png);
+	height: 452px;
+	margin: 100px auto;
+	overflow: hidden;
+	position: relative;
+	width: 603px;
+
+	.bg div,
+	.hair div,
+	.head div,
+	.shirt div,
+	.jacket div{
+		position: absolute;
+	}
+
+	//head
+	.head{
+
+		div{
+			background-color: $skin;
+		}
+
+	}
+
+	.meme{
+
+		display: none;
+	
+		position: absolute;
+		left: 20px;
+		right: 20px;
+
+		.inner{
+			position: relative;
+		}
+
+		&.top{
+			top: 20px;
+		}
+
+		&.bottom{
+			bottom: 20px;
+			
+			textarea{
+				vertical-align: bottom;
+			}
+
+		}
+
+
+		textarea{
+			border: 0;
+			background-color: rgba(0,0,0, .2);
+			font-family: Impact, Charcoal, sans-serif;
+			color: #FFF;
+			height: auto;
+			font-size:60px;
+			font-weight: bold;
+			line-height: 1.25;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			resize: none;
+			text-align: center;
+			text-transform: uppercase;
+			-webkit-text-stroke-width: 2px;
+			-webkit-text-stroke-color: #000;			
+			width: 100%;
+		}
+	}
+
+}
