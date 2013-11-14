@@ -123,6 +123,13 @@ html {
   height: 48px;
   width: 48px;
 }
+#fry .head .ear-mask {
+  background-color: #ffb591;
+  height: 23px;
+  left: 233px;
+  top: 277px;
+  width: 27px;
+}
 #fry .head .ear-top {
   border-right: 2px solid #000;
   border-left: 2px solid #000;
